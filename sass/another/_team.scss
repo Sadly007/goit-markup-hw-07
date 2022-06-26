@@ -83,16 +83,21 @@
     justify-content: center;
     /* margin-top: 16px; */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        background-color: #2196F3;
+    }
 }
 
-.master__link:hover,
-.master__link:focus {
-    background-color: #2196F3;
+// .master__link:hover,
+// .master__link:focus {
+//     background-color: #2196F3;
 
-}
+// }
 
-.master__list {
+.master {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
